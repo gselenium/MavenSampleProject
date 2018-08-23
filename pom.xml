@@ -22,8 +22,8 @@
 				<version>2.22.0</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
-					</suiteXmlFiles>
+						<suiteXmlFile>${suitename}.xml</suiteXmlFile>
+					</suiteXmlFiles>					
 				</configuration>
 			</plugin>
 
