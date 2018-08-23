@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import com.maven.base.TestBase;
 public class Rediff extends TestBase{
 	@Test
-	@Parameters("url")
+	@Parameters({"browser","url"})
 	public void redifflogin(String url) {
 		navigateurl(url);		
 		driver.findElement(By.linkText("Sign in")).click();
