@@ -27,10 +27,12 @@ public class TestBase {
 	
 	public void navigateurl(String url) {		
 		driver.get(url);
+		System.out.println("Navingating url: "+url);
 	}
 	
 	public void closebrowser() {
 		driver.quit();
+		System.out.println("Closing the browser");
 	}
 
 }
