@@ -5,7 +5,7 @@ import com.maven.base.TestBase;
 public class Rediff extends TestBase{
 	@Test
 	public void redifflogin() {
-		OpenBrowser("firefox");
+		//OpenBrowser("firefox");
 		navigateurl("http://rediff.com");
 		driver.findElement(By.linkText("Sign in")).click();
 	}
