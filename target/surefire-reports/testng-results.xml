@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9659" started-at="2018-08-23T10:01:16Z" finished-at="2018-08-23T10:01:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9659" started-at="2018-08-23T10:01:16Z" finished-at="2018-08-23T10:01:25Z">
+      <class name="com.maven.testcases.Rediff">
+        <test-method status="PASS" signature="redifflogin()[pri:0, instance:com.maven.testcases.Rediff@62043840]" name="redifflogin" duration-ms="9606" started-at="2018-08-23T10:01:16Z" finished-at="2018-08-23T10:01:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redifflogin -->
+      </class> <!-- com.maven.testcases.Rediff -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
