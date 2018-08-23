@@ -6,7 +6,8 @@ import com.maven.base.TestBase;
 public class Rediff extends TestBase{
 	@Test
 	@Parameters({"browser","url"})
-	public void redifflogin(String url) {
+	public void redifflogin(String browser,String url) {
+		OpenBrowser(browser);
 		navigateurl(url);		
 		driver.findElement(By.linkText("Sign in")).click();
 		System.out.println("Clicking on sign in link");

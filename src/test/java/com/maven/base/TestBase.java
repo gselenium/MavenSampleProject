@@ -9,8 +9,8 @@ import org.testng.annotations.Parameters;
 public class TestBase {
 	public WebDriver driver;
 	
-	@BeforeMethod
-	@Parameters("browser")
+	/*@BeforeMethod
+	@Parameters("browser")*/
 	public void OpenBrowser(String browser) {
 		if(browser.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver","resources/geckodriver.exe");
