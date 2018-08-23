@@ -15,9 +15,11 @@ public class TestBase {
 		if(browser.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver","resources/geckodriver.exe");
 			driver = new FirefoxDriver();
+			System.out.println("Executing on firefox browser");
 		}else if(browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");
 			driver = new ChromeDriver();
+			System.out.println("Executing on chrome browser");
 		}else {
 			System.out.println("Browser parameter not matched");
 		}
